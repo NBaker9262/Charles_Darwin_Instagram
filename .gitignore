@@ -1,8 +1,21 @@
-{
-    "files.exclude": {
-        "**/.git": true,
-        "**/.DS_Store": true,
-        "**/node_modules": true
-        ".vscode": true
-    }
-}
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Dependencies
+node_modules/
+
+# Build outputs
+*.css.map
+.sass-cache/
+
+# Temporary files
+*.log
+*.tmp
