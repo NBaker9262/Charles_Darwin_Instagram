@@ -5,12 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Instagram</title>
+    <title>Charles Darwin (@charles_darwin) • Instagram</title>
     <link rel="stylesheet" href="./sass/vender/bootstrap.css">
     <link rel="stylesheet" href="./sass/vender/bootstrap.min.css">
-    <link rel="stylesheet" href="./owlcarousel/owl.theme.default.min.css">
-    <link rel="stylesheet" href="./owlcarousel/owl.carousel.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/emojionearea/3.4.2/emojionearea.min.css">
     <link rel="stylesheet" href="./sass/main.css">
 </head>
 <body>
@@ -35,7 +32,7 @@
                                     <span class="d-none d-lg-block ">Home</span>
                                 </a>
                             </li>
-                            <li id="search_icon">
+                            <li>
                                 <a href="#">
                                     <img src="./images/search.png">
                                     <span class="d-none d-lg-block search">Search </span>
@@ -59,22 +56,21 @@
                                     <span class="d-none d-lg-block ">Messages</span>
                                 </a>
                             </li>
-                            <li class="notification_icon">
+                            <li>
                                 <a href="#">
                                     <img src="./images/love.png">
                                     <span class="d-none d-lg-block ">Notifications</span>
                                 </a>
                             </li>
                             <li>
-                                <a href="#" data-bs-toggle="modal" data-bs-target="#create_modal">
+                                <a href="#">
                                     <img src="./images/tab.png">
                                     <span class="d-none d-lg-block ">Create</span>
                                 </a>
-
                             </li>
                             <li>
                                 <a href="#">
-                                    <img class="circle story" src="./images/profile_img.jpg">
+                                    <img class="circle story" src="./images/charles-darwin-profile.jpg">
                                     <span class="d-none d-lg-block ">Profile</span>
                                 </a>
                             </li>
@@ -188,215 +184,30 @@
                     </div>
                 </div>
             </div>
-            <!-- menu in the botton for smal screen  -->
-            <div class="nav_bottom">
-                <a href="#"><img src="./images/accueil.png"></a>
-                <a href="#"><img src="./images/compass.png"></a>
-                <a href="#"><img src="./images/video.png"></a>
-                <a  href="#" data-bs-toggle="modal" data-bs-target="#create_modal"><img src="./images/tab.png"></a>
-                <a href="#"><img class="circle story" src="./images/profile_img.jpg"></a>
-            </div>
         </div>
-        <!-- search  -->
-        <div id="search" class="search_section">
-            <h2>Search</h2>
-            <form method="post">
-                <input type="text" placeholder="Search">
-            </form>
-            <div class="find">
-                <div class="desc">
-                    <h4>Recent</h4>
-                    <p><a href="#">Clear all</a></p>
-                </div>
-                <div class="account">
-                    <div class="cart">
-                        <div>
-                            <div class="img">
-                                <img src="./images/profile_img.jpg" alt="">
-                            </div>
-                            <div class="info">
-                                <p class="name">Zineb_essoussi</p>
-                                <p class="second_name">Zim Ess</p>
-                            </div>
-                        </div>
-                        <div class="clear">
-                            <a href="#">X</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- search  -->
-        <!-- notification -->
-        <div id="notification" class="notification_section">
-            <h2>Notifications</h2>
-            <div class="notifications">
-                <div class="notif follow_notif">
-                    <div class="cart">
-                        <div>
-                            <div class="img">
-                                <img src="./images/profile_img.jpg" alt="">
-                            </div>
-                            <div class="info">
-                                <p class="name">
-                                    Zineb_essoussi
-                                    <span class="desc">started following you.</span>
-                                    <span class="time">2h</span>
-                                </p>
-
-                            </div>
-                        </div>
-                        <div class="follow_you">
-                            <button class="follow_text">Follow</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="notif follow_notif">
-                    <div class="cart">
-                        <div>
-                            <div class="img">
-                                <img src="./images/profile_img.jpg" alt="">
-                            </div>
-                            <div class="info">
-                                <p class="name">
-                                    Zineb_essoussi
-                                    <span class="desc">started following you.</span>
-                                    <span class="time">2h</span>
-                                </p>
-
-                            </div>
-                        </div>
-                        <div class="follow_you">
-                            <button class="follow_text">Follow</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="notif story_notif">
-                    <div class="cart">
-                        <div>
-                            <div class="img">
-                                <img src="./images/profile_img.jpg" alt="">
-                            </div>
-                            <div class="info">
-                                <div class="info">
-                                    <p class="name">
-                                        Zineb_essoussi
-                                        <span class="desc">liked your story.</span>
-                                        <span class="time">2d</span>
-                                    </p>
-
-                                </div>
-                            </div>
-                        </div>
-                        <div class="story_like">
-                            <img src="./images/img2.jpg" alt="">
-                        </div>
-                    </div>
-                </div>
-                <div class="notif follow_notif">
-                    <div class="cart">
-                        <div>
-                            <div class="img">
-                                <img src="./images/profile_img.jpg" alt="">
-                            </div>
-                            <div class="info">
-                                <p class="name">
-                                    Zineb_essoussi
-                                    <span class="desc">started following you.</span>
-                                    <span class="time">2h</span>
-                                </p>
-
-                            </div>
-                        </div>
-                        <div class="follow_you">
-                            <button class="follow_text">Follow</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="notif story_notif">
-                    <div class="cart">
-                        <div>
-                            <div class="img">
-                                <img src="./images/profile_img.jpg" alt="">
-                            </div>
-                            <div class="info">
-                                <div class="info">
-                                    <p class="name">
-                                        Zineb_essoussi
-                                        <span class="desc">liked your story.</span>
-                                        <span class="time">2d</span>
-                                    </p>
-
-                                </div>
-                            </div>
-                        </div>
-                        <div class="story_like">
-                            <img src="./images/img2.jpg" alt="">
-                        </div>
-                    </div>
-                </div>
-                <div class="notif follow_notif">
-                    <div class="cart">
-                        <div>
-                            <div class="img">
-                                <img src="./images/profile_img.jpg" alt="">
-                            </div>
-                            <div class="info">
-                                <p class="name">
-                                    Zineb_essoussi
-                                    <span class="desc">started following you.</span>
-                                    <span class="time">2h</span>
-                                </p>
-
-                            </div>
-                        </div>
-                        <div class="follow_you">
-                            <button class="follow_text">Follow</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--***** nav menu end ****** -->
 
         <div class="profile_container">
             <div class="profile_info">
                 <div class="cart">
                         <div class="img">
-                            <img src="./images/profile_img.jpg" alt="">
+                            <img src="./images/charles-darwin-profile.jpg" alt="">
                         </div>
                         <div class="info">
                             <p class="name">
-                                Zineb_essoussi
-                                <button class="edit_profile">
-                                    Edit profile 
-                                </button>
+                                charles_darwin
                             </p>
                             <div class="general_info">
-                                <p><span>1</span> post</p>
-                                <p><span>177</span> followers</p>
-                                <p><span>137</span> following</p>
+                                <p><span>9</span> posts</p>
+                                <p><span>1.2M</span> followers</p>
+                                <p><span>47</span> following</p>
                             </div>
-                            <p class="nick_name">Zin Ess</p>
+                            <p class="nick_name">Charles Darwin</p>
                             <p class="desc">
-                                I'am an engineering student <br>
-                                ENSAO
+                                Naturalist • Biologist • Geologist<br>
+                                Author of <em>On the Origin of Species</em> (1859)<br>
+                                HMS Beagle Voyager 🌍
                             </p>
                         </div>
-                </div>
-            </div>
-            <div class="highlights">
-                <div class="highlight">
-                    <div class="img">
-                        <img src="./images/profile_img.jpg" alt="">
-                    </div>
-                    <p>conseils</p>
-                </div>
-                <div class="highlight highlight_add">
-                    <div class="img">
-                        <img src="./images/plus.png" alt="">
-                    </div>
-                    <p>New</p>
                 </div>
             </div>
             <hr>
@@ -408,124 +219,60 @@
                             POSTS
                         </button>
                     </li>
-                    <li class="nav-item mx-2" role="presentation">
-                      <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">
-                        <img src="./images/save-instagram.png" alt="saved posts">
-                        SAVED
-                      </button>
-                    </li>
-                    <li class="nav-item mx-2" role="presentation">
-                      <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">
-                        <img src="./images/tagged.png" alt="tagged posts">
-                        TAGGED
-                      </button>
-                    </li>
                   </ul>
                   <div class="tab-content" id="pills-tabContent">
                     <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
                         <div id="posts_sec" class="post">
-                            <div class="item">
-                                <img class="img-fluid item_img" src="https://i.ibb.co/Jqh3rHv/img1.jpg" alt="">
-                            </div>
-                            <div class="item">
-                                <img class="img-fluid item_img" src="https://i.ibb.co/2ZxBFVp/img2.jpg" alt="">
-                            </div>
-                            <div class="item">
-                                <img class="img-fluid item_img" src="https://i.ibb.co/5vQt677/img3.jpg" alt="">
-                            </div>
-                            <div class="item">
-                                <img class="img-fluid item_img" src="https://i.ibb.co/pJ8thst/account13.jpg" alt="">
-                            </div>
-                            <div class="item">
-                                <img class="img-fluid item_img" src="https://i.ibb.co/j8L7FPY/account10.jpg" alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
-                        <div id="saved_sec" class="post">
-                            <div class="item">
-                                <img class="img-fluid item_img" src="https://i.ibb.co/6WvdZS9/account12.jpg" alt="">
-                            </div>
-                            <div class="item">
-                                <img class="img-fluid item_img" src="https://i.ibb.co/pJ8thst/account13.jpg" alt="">
-                            </div>
-                            
-                        </div>
-                    </div>
-                    <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">
-                        <div id="tagged" class="post">
-                            <div class="item">
-                                <img class="img-fluid item_img" src="https://i.ibb.co/Zhc5hHp/account4.jpg" alt="">
-                            </div>
-                            <div class="item">
-                                <img class="img-fluid item_img" src="https://i.ibb.co/SPTNbJL/account5.jpg" alt="">
-                            </div>
-                        </div>
-                    </div>
-                    
-                  </div>
-            </div>
-        </div>
-
-
-        <!--Create model-->
-        <div class="modal fade" id="create_modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h1 class="modal-title w-100 fs-5 d-flex align-items-end justify-content-between"
-                            id="exampleModalLabel">
-                            <span class="title_create">Create new post</span>
-                            <button class="next_btn_post btn_link"></button>
-                        </h1>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <img class="up_load" src="./images/upload.png" alt="upload">
-                        <p>Drag photos and videos here</p>
-                        <button class="btn btn-primary btn_upload">
-                            select from your computer
-                            <form id="upload-form">
-                                <input class="input_select" type="file" id="image-upload" name="image-upload">
-                            </form>
-                        </button>
-                        <div id="image-container" class="hide_img">
-                        </div>
-                        <div id="image_description" class="hide_img">
-                            <div class="img_p"></div>
-                            <div class="description">
-                                <div class="cart">
-                                    <div>
-                                        <div class="img">
-                                            <img src="./images/profile_img.jpg">
-                                        </div>
-                                        <div class="info">
-                                            <p class="name">Zineb_essoussi</p>
-                                        </div>
-                                    </div>
+                            <div class="item text-post">
+                                <div class="text-content">
+                                    <p>Natural selection requires three conditions: variation, inheritance, and differential survival. When these occur consistently, populations shift. No grand design—just cumulative outcomes of survival and reproduction.</p>
                                 </div>
-                                <form>
-                                    <textarea type="text" id="emoji_create" placeholder="write your email"></textarea>
-                                </form>
+                            </div>
+                            <div class="item">
+                                <img class="img-fluid item_img" src="./images/Charles Darwin.png" alt="Charles Darwin">
+                            </div>
+                            <div class="item text-post">
+                                <div class="text-content">
+                                    <p>Studying variation in species shows that small differences can determine survival. Over time, those with advantageous traits leave more offspring. Gradual change, accumulated across generations, explains the diversity of life.</p>
+                                </div>
+                            </div>
+                            <div class="item text-post">
+                                <div class="text-content">
+                                    <p>All species share common descent. The tree of life branches outward, linking every organism through ancestry. The evidence lies in anatomy, fossils, embryology, and geographic distribution.</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img class="img-fluid item_img" src="./images/Charles Darwin Instagram Story.png" alt="Charles Darwin">
+                            </div>
+                            <div class="item text-post">
+                                <div class="text-content">
+                                    <p>The finches of the Galápagos revealed divergence from common ancestry. Beak shape corresponded directly to available food sources. Environment does not create traits, but it filters them.</p>
+                                </div>
+                            </div>
+                            <div class="item text-post">
+                                <div class="text-content">
+                                    <p>Artificial selection in domesticated pigeons demonstrates how much change can occur in a short time. If humans can guide variation so effectively, nature—over vast spans of time—can do far more.</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img class="img-fluid item_img" src="./images/Charles Darwin Instagram Story(1).png" alt="Charles Darwin">
+                            </div>
+                            <div class="item text-post">
+                                <div class="text-content">
+                                    <p>The voyage aboard the HMS <em>Beagle</em> reshaped my understanding of nature. Observing distinct species on neighboring islands suggested that life is not fixed, but responsive to environment.</p>
+                                </div>
                             </div>
                         </div>
-                        <div class="post_published hide_img">
-                            <img src="./images/uploaded_post.gif" alt="">
-                        </div>
                     </div>
-                </div>
+                  </div>
             </div>
         </div>
 
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>    
-    <script src="./owlcarousel/jquery.min.js"></script>
-    <script src="./owlcarousel/owl.carousel.min.js"></script>
-    <script src="./js/carousel.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/emojionearea/3.4.2/emojionearea.min.js"></script>
-    <script src="./js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+    <script src="./js/randomize.js"></script>
 </body>
 
 </html>
